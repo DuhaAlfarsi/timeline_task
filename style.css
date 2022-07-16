@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Arima:wght@100;200;300&family=Cairo:wght@200;300;400;500;600;700;800;900&family=Comfortaa:wght@300&family=Dancing+Script&family=Edu+VIC+WA+NT+Beginner&family=Montserrat+Alternates:ital,wght@0,100;0,200;1,100&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f7f9fc;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  margin: 3rem auto;
+  font-size: 1.2rem;
+  background: #f7f9fc;
+  height: 100vh;
+}
+
+section {
+  display: grid;
+  place-items: center;
+  position: relative;
+  width: 100%;
+}
+
+section ul li {
+  list-style: none;
+}
+h3 {
+  font-size: 15px;
+  color: rgb(128, 128, 128);
+  font-weight: 200;
+  margin-bottom: 2px;
+}
+
+.body-detailes {
+  background-color: white;
+  border-radius: 10px;
+  padding: 7px;
+  width: 516px;
+  height: 86px;
+  line-height: 2;
+  margin-bottom: 80px;
+  border: 1px solid rgb(128, 128, 128, 0.2);
+}
+
+p {
+  font-weight: 300;
+}
+
+h4 {
+  font-weight: 100;
+  font-size: 15px;
+}
+section ul li::before {
+  content: "";
+  position: absolute;
+  height: 24.2vh;
+  width: 2px;
+  background: rgb(0, 0, 0, 0.1);
+  left: 25.9rem;
+}
+
+section ul li::after {
+  content: "";
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background: white;
+  border-radius: 50%;
+  top: 0;
+  left: 25.55rem;
+  border: 1px solid rgb(0, 0, 0, 0.1);
+}
+section ul li:nth-child(2)::after{
+    
+    top:11.55rem;
+}
+section ul li:nth-child(3)::after{
+    top:23.55rem;
+}
