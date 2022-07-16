@@ -28,7 +28,7 @@ section ul li {
 h3 {
   font-size: 15px;
   color: rgb(128, 128, 128);
-  font-weight: 200;
+  font-weight: 400;
   margin-bottom: 2px;
 }
 
@@ -76,5 +76,5 @@ section ul li:nth-child(2)::after{
     top:11.55rem;
 }
 section ul li:nth-child(3)::after{
-    top:23.55rem;
+    top:23.5rem;
 }
