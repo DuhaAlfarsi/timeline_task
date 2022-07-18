@@ -8,6 +8,7 @@
 body {
   background: #f7f9fc;
   font-family: "Poppins", sans-serif;
+  max-width: 800px;
   width: 100%;
   margin: 3rem auto;
   font-size: 1.2rem;
@@ -22,8 +23,13 @@ section {
   width: 100%;
 }
 
+section ul {
+  width: 100%;
+}
+
 section ul li {
   list-style: none;
+  transform: translateX(3rem);
 }
 h3 {
   font-size: 15px;
@@ -51,16 +57,16 @@ h4 {
   font-weight: 100;
   font-size: 15px;
 }
-section ul li::before {
+section::before {
   content: "";
   position: absolute;
-  height: 24.2vh;
+  height: 70.2vh;
   width: 2px;
   background: rgb(0, 0, 0, 0.1);
-  left: 25.9rem;
+  left: 0.8999999999999986rem;
 }
 
-section ul li::after {
+section::after {
   content: "";
   position: absolute;
   height: 10px;
@@ -68,13 +74,7 @@ section ul li::after {
   background: white;
   border-radius: 50%;
   top: 0;
-  left: 25.55rem;
+  left: 0.5500000000000007rem;
   border: 1px solid rgb(0, 0, 0, 0.1);
 }
-section ul li:nth-child(2)::after{
-    
-    top:11.55rem;
-}
-section ul li:nth-child(3)::after{
-    top:23.5rem;
-}
+
