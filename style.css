@@ -15,8 +15,6 @@ body {
 }
 
 section {
-  display: grid;
-  place-items: center;
   position: relative;
   width: 100%;
 }
@@ -74,8 +72,27 @@ section ul li::after {
   border: 1px solid rgb(0, 0, 0, 0.1);
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 992px) {
   body {
-    max-width: 500px;
+    max-width: 400px;
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    max-width: 400px;
+    font-size: 11px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+  section {
+    width: 80%;
   }
 }
